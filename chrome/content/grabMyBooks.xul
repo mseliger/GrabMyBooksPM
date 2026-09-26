@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://grabMyBooks/skin/grabMyBooks.css" type="text/css"?>
+
+<overlay id="grabMyBooks-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="grabMyBooks.js"/>
+
+	<window id="main-window" xmlns:html="http://www.w3.org/1999/xhtml">
+	  <panel id="grabMyBooksBookPanel" align="center">
+		<vbox align="center">
+			<hbox id="grabMyBooksBookPanelButtonAddedBox" pack="start">
+			 <description id="grabMyBooksAddedLabel" value="Article(s) added to book"/> 
+			 <description id="grabMyBooksAddedLabelNum" value=""/>  			
+			</hbox>
+			<hbox id="grabMyBooksBookPanelButtons" pack="center">
+				<html:div id="grabMyBooksBookPanelButtonDelete" title="Delete this article" class="menuTextWrapperXUL"><html:div class="menuTextXUL">DELETE</html:div></html:div>
+				<html:div id="grabMyBooksBookPanelButtonEdit" title="Edit this article" class="menuTextWrapperXUL"><html:div class="menuTextXUL">EDIT</html:div></html:div>
+				<html:div id="grabMyBooksBookPanelButtonMyBook" title="Show my book" class="menuTextWrapperXUL" onclick="grabMyBooks.infoPanel.hidePopup();grabMyBooks.showBook();"><html:div class="menuTextXUL">MY BOOK</html:div></html:div>
+				<html:div id="grabMyBooksBookPanelButtonClose" title="Close this notification" class="menuTextWrapperXUL" onclick="grabMyBooks.infoPanel.hidePopup();"><html:div class="menuTextXUL">CLOSE</html:div></html:div>
+			</hbox>
+			<hbox id="grabMyBooksBookPanelArticleSelectBox" align="center">
+			<description id="grabMyBooksBookPanelArticleMultiLabel" value=""/>
+			<description id="grabMyBooksBookPanelMultiPrevious" value="&lt;" class="grabMyBooksBookPanelMultiPrevNext" tooltiptext="Show previous"/>
+			<menulist id="grabMyBooksBookPanelArticleSelect">
+			    <menupopup>
+			 	</menupopup>
+			 </menulist>
+			 <description id="grabMyBooksBookPanelMultiNext" value="&gt;" class="grabMyBooksBookPanelMultiPrevNext" tooltiptext="Show next"/>
+			 <html:div id="grabMyBooksBookPanelButtonDeleteMulti" title="Delete newly added articles" class="menuTextWrapperXUL"><html:div class="menuTextXUL">DELETE ALL</html:div></html:div>
+			</hbox>
+			<hbox id="grabMyBooksIframeContainer" align="center">
+			<iframe id="grabMyBooksBookPanelIframe" type="content" allowtransparency="true"/>
+			</hbox>
+		</vbox>
+	</panel>
+	<panel id="grabMyBooksSmallInfoPanel" align="center">
+		<vbox align="center">
+			<hbox id="grabMyBooksSmallInfoPanelBox" pack="start" align="center">
+				<image id="grabMyBooksSmallInfoPanelIcon"/>
+				<description id="grabMyBooksSmallInfoPanelLabel" value="Info"/>
+			</hbox>
+			<hbox id="grabMyBooksSmallInfoContentContainer" align="top">
+				<iframe id="grabMyBooksSmallInfoPanelIframe" type="content" allowtransparency="true"/>
+			</hbox>
+			<hbox id="grabMyBooksSmallInfoButtonsContainer" align="center">
+				<html:div id="grabMyBooksBookSmallInfoPanelButtonOk" class="menuTextWrapperXUL"><html:div class="menuTextXUL">OK</html:div></html:div>
+				<html:div id="grabMyBooksBookSmallInfoPanelButtonCancel" class="menuTextWrapperXUL"><html:div class="menuTextXUL">CANCEL</html:div></html:div>
+				<html:div id="grabMyBooksBookSmallInfoPanelButtonYes" class="menuTextWrapperXUL"><html:div class="menuTextXUL">YES</html:div></html:div>
+				<html:div id="grabMyBooksBookSmallInfoPanelButtonNo" class="menuTextWrapperXUL"><html:div class="menuTextXUL">NO</html:div></html:div>
+				<html:div id="grabMyBooksBookSmallInfoPanelButtonDelete" class="menuTextWrapperXUL"><html:div class="menuTextXUL">DELETE</html:div></html:div>
+			</hbox>
+		</vbox>
+	</panel>
+</window>
+  
+  
+  <menupopup id="contentAreaContextMenu">
+    <menu id="grabMyBooksGroupedMenu" class="menu-iconic" label="GrabMyBooks">
+	    <menupopup id="grabMyBooksGroupedMenuItemPopup">
+			<menuitem id="grabMyBooksGroupedGrabMyBook" label="Grab my book"
+	              accesskey="B"
+	    		  class="menuitem-iconic"
+	    		  image="chrome://grabMyBooks/content/icons/bookReader.png"
+	              oncommand="grabMyBooks.showBook()"/>
+		    <menuitem id="grabMyBooksGroupedGrabSelection" label="Grab selection"
+		              accesskey="S" 
+		    		  class="menuitem-iconic"
+		    		  image="chrome://grabMyBooks/content/icons/grabSelection.png"
+		              oncommand="grabMyBooks.addSelection()"/>
+		    <menuitem id="grabMyBooksGroupedGrabSelectedLinks" label="Grab selected links"
+		              accesskey="N" 
+		    		  class="menuitem-iconic"
+		    		  image="chrome://grabMyBooks/content/icons/grabSelectedLinks.png"
+		              oncommand="grabMyBooks.addSelectedLinks()"/>
+		    <menuitem id="grabMyBooksGroupedGrabLink" label="Grab link"
+		              accesskey="L" 
+		    		  class="menuitem-iconic"
+		    		  image="chrome://grabMyBooks/content/icons/grabLinkArticle.png"
+		              oncommand="grabMyBooks.onMenuItemCommand(event)"/>
+		    <menuitem id="grabMyBooksGroupedGrabPage" label="Grab this page"
+		              accesskey="P" 
+		    		  class="menuitem-iconic"
+		    		  image="chrome://grabMyBooks/content/icons/grabPageArticle.png"
+		              oncommand="grabMyBooks.addCurrentPage()"/>
+		</menupopup>
+	</menu>
+    <menuitem id="grabMyBooksGrabMyBook" label="Grab my book"
+              accesskey="B"
+    		  class="menuitem-iconic"
+    		  image="chrome://grabMyBooks/content/icons/bookReader.png"
+              oncommand="grabMyBooks.showBook()"/>
+    <menuitem id="grabMyBooksGrabSelection" label="Grab selection"
+              accesskey="S" 
+    		  class="menuitem-iconic"
+    		  image="chrome://grabMyBooks/content/icons/grabSelection.png"
+              oncommand="grabMyBooks.addSelection()"/>
+    <menuitem id="grabMyBooksGrabSelectedLinks" label="Grab selected links"
+              accesskey="N" 
+    		  class="menuitem-iconic"
+    		  image="chrome://grabMyBooks/content/icons/grabSelectedLinks.png"
+              oncommand="grabMyBooks.addSelectedLinks()"/>
+    <menuitem id="grabMyBooksGrabLink" label="Grab link"
+              accesskey="L" 
+    		  class="menuitem-iconic"
+    		  image="chrome://grabMyBooks/content/icons/grabLinkArticle.png"
+              oncommand="grabMyBooks.onMenuItemCommand(event)"/>
+    <menuitem id="grabMyBooksGrabPage" label="Grab this page"
+              accesskey="P" 
+    		  class="menuitem-iconic"
+    		  image="chrome://grabMyBooks/content/icons/grabPageArticle.png"
+              oncommand="grabMyBooks.addCurrentPage()"/>
+  </menupopup>
+  
+  	<menupopup id="menu_ToolsPopup">
+  	  	 <menu id="grabMyBooksMenu" class="menu-iconic" label="GrabMyBooks" insertbefore="devToolsSeparator">
+  	  	   	<menupopup id="grabMyBooksToolsBookIconMenu">
+  	  	   		<menuitem label="My book" oncommand="grabMyBooks.showBook();" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/bookReader.png"/>
+  	  	   		<menuitem label="Feeds" oncommand="grabMyBooks.showFeeds();" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/bookRss.png"/>
+  	  	   		<menuitem label="NewsPapers" oncommand="grabMyBooks.newsPapers.show(null);" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/bookNewsPaper.png"/>
+  	  	   		<menuseparator/>
+  	  	   		<menuitem label="Grab tabs" oncommand="grabMyBooks.addTabs();" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/grabTabs.png"/>
+				<menuitem label="Express page grab" oncommand="grabMyBooks.addCurrentPageExpress();" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/grabPageArticleExpress.png"/>
+				<menuseparator/>
+				<menuitem label="Rule editor" oncommand="grabMyBooks.zone.launchRuleEditor();" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/bookZone.png"/>
+				<menuitem label="Options" oncommand="grabMyBooks.showOptions(null);" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/bookTools.png"/>
+				<menuitem label="Help" oncommand="grabMyBooks.openWebSite();" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/bookHelp.png"/>
+			</menupopup>
+        </menu>
+	</menupopup>
+	
+	<toolbarpalette id="BrowserToolbarPalette">
+	        <toolbarbutton image="chrome://grabMyBooks/content/icons/bookReader.png" id="grabMyBooksToolbarButton" label="grabMyBooks" tooltiptext="GrabMyBooks" type="menu-button" class="toolbarbutton-1 chromeclass-toolbar-additional" oncommand="document.getElementById('grabMyBooksToolbarItemMenuPopup').openPopup(this,'after_end',0,0,false,false);">
+	            <menupopup id="grabMyBooksToolbarItemMenuPopup">
+			        <menuitem label="My book" oncommand="grabMyBooks.showBook();" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/bookReader.png"/>
+	  	  	   		<menuitem label="Feeds" oncommand="grabMyBooks.showFeeds();" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/bookRss.png"/>
+	  	  	   		<menuitem label="NewsPapers" oncommand="grabMyBooks.newsPapers.show(null);" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/bookNewsPaper.png"/>
+	  	  	   		<menuseparator/>
+	  	  	   		<menuitem label="Grab tabs" oncommand="grabMyBooks.addTabs();" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/grabTabs.png"/>
+					<menuitem label="Express page grab" oncommand="grabMyBooks.addCurrentPageExpress();" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/grabPageArticleExpress.png"/>
+					<menuseparator/>
+					<menuitem label="Rule editor" oncommand="grabMyBooks.zone.launchRuleEditor();" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/bookZone.png"/>
+					<menuitem label="Options" oncommand="grabMyBooks.showOptions(null);" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/bookTools.png"/>
+					<menuitem label="Help" oncommand="grabMyBooks.openWebSite();" class="menuitem-iconic" image="chrome://grabMyBooks/content/icons/bookHelp.png"/>
+			    </menupopup>
+			</toolbarbutton>
+    </toolbarpalette>
+
+</overlay>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>info@grabMyBooks.com</em:id>
+    <em:type>2</em:type>
+    <em:name>GrabMyBooks</em:name>
+    <em:version>2.0.0.0</em:version>
+    <em:creator>GrabMyBooks, Maria Seliger</em:creator>
+    <em:contributor>GrabMyBooks</em:contributor>
+    <em:description>For Pale Moon only. Grab content from web sites and rss feeds into an ePub/mobi file for your eBook reader.</em:description>
+    <em:homepageURL>https://github.com/mseliger/GrabMyBooksPM</em:homepageURL>
+    <em:iconURL>chrome://grabMyBooks/content/icons/grabBookIcon.png</em:iconURL>
+    <em:aboutURL>chrome://grabMyBooks/content/grabMyBooksAbout.xul</em:aboutURL>
+    <em:targetApplication>
+    	<Description>
+		<!-- Pale Moon -->
+    		<em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
+   			<em:minVersion>29.0</em:minVersion>
+			<em:maxVersion>35.*</em:maxVersion>
+		</Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

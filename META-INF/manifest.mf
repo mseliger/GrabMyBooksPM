@@ -1,0 +1,377 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6+XEsaHetAO9aT3LCTD+Bw==
+SHA1-Digest: UksAhhKP9QOC0u9cxePT+glaTus=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: G0oHUSvpf8Sjumkx60+Kxg==
+SHA1-Digest: nXGzkFmk2ReMzR2UzGh4Rg9Cvmk=
+
+Name: chrome/content/grabMyBooks.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OYKsUCbw8i9VEoneWa1JVw==
+SHA1-Digest: RfK9r8geAaGhPL+DX/kHV66HEtE=
+
+Name: chrome/content/grabMyBooks.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0YYgRdKXzR+BRc7PyhEbGQ==
+SHA1-Digest: fTejMuznXqjbVNXbIfVTU7zbx6s=
+
+Name: chrome/content/grabMyBooksAbout.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: AlN4vhpt0YhXjKEjijydkQ==
+SHA1-Digest: sgNlD3NpPyuSIcSnMOPZxE4kL08=
+
+Name: chrome/content/icons/bookHelp.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Vl6OAsyGzMnsISBYpk95Qg==
+SHA1-Digest: KmPshGo8eXMevPBexBUq3LS9+W4=
+
+Name: chrome/content/icons/bookNewsPaper.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tejiCyCqV0kOhTdTzBFZ3A==
+SHA1-Digest: W3FviFklDE7JNHhsLEvwUbS2gJE=
+
+Name: chrome/content/icons/bookReader.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SIf7x9VAdJGltZu5J6HGhA==
+SHA1-Digest: RW1i2UEmXnek9dkHFgxp0hdMyXQ=
+
+Name: chrome/content/icons/bookReaderError.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: aCdilhO4b/R9oTFGj4rOpQ==
+SHA1-Digest: cx8q7LJZI9i3LC4zcqmQSRYYSDA=
+
+Name: chrome/content/icons/bookReaderWarn.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XV4ISYdkHRXmT05FGRpJ5g==
+SHA1-Digest: M18Tc61Vj8Wpz9FhWqdlJ+sRxEs=
+
+Name: chrome/content/icons/bookRss.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 15zi63EwM2NQ8J1wuuCgMg==
+SHA1-Digest: MTIPVPeWYMGYIa/wyndfLbhlVks=
+
+Name: chrome/content/icons/bookTools.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 17V1Q2v2vL8b5kpJgfxdEQ==
+SHA1-Digest: +mcrYATO3UATjIg0hvVJoBCTFaY=
+
+Name: chrome/content/icons/bookZone.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NjcamFlD6sGX1zAGhSSOUQ==
+SHA1-Digest: uJe+TIuWYOGYSRzekUHZpThqr1o=
+
+Name: chrome/content/icons/grabBookIcon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZeVEchaiRHp39ja9eyrJ8g==
+SHA1-Digest: ptEyMTT5VtA3PBXs7QKZSn7CZxQ=
+
+Name: chrome/content/icons/grabLinkArticle.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZfCUNNeDg2qzPN+YrBn+aQ==
+SHA1-Digest: 6y53n8N1KR+6eobjxCqhcWEC+qk=
+
+Name: chrome/content/icons/grabPageArticle.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 22tdQcmmECqTqUzSUfuL0Q==
+SHA1-Digest: EiBv+kIg1Db0lFTVNa9uVfFTB0Q=
+
+Name: chrome/content/icons/grabPageArticleExpress.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bNdGGKQ7qwCADWZv1lpK8g==
+SHA1-Digest: 7CHwiwHiSG29BpWezfHO4CxHni4=
+
+Name: chrome/content/icons/grabSelectedLinks.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QAhEIdRsPVBLRupGXA5QGQ==
+SHA1-Digest: bEh/XADm/2auvVWVhRz4Ogx0FG0=
+
+Name: chrome/content/icons/grabSelection.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SBM6hLIxk+ealWK+2+oi7Q==
+SHA1-Digest: H/vKG5rMp6TDDWN0Fm0QweoaZ+A=
+
+Name: chrome/content/icons/grabTabs.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 77peuz0JKXllmUJz3/e/fw==
+SHA1-Digest: r7qmf+fG6eRbMuYLDiETghdvBLI=
+
+Name: chrome/content/icons/common/cancelRoundRed.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DiUd5oSTWvyBEZ/LaEaaJQ==
+SHA1-Digest: QE2OyOFHBjSfw0F45HzYCmNqQtg=
+
+Name: chrome/content/icons/common/plus.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IyH1qnpp0/wogufiglSDdw==
+SHA1-Digest: m4zq11klZvUk741vXqFaNdlMTwI=
+
+Name: chrome/content/icons/common/plusB.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: d/R4RsJfzN/9v5sHTatnLg==
+SHA1-Digest: vdsArhwRhrwcRn3o0Fhvb9VwEUs=
+
+Name: chrome/content/icons/feeds/rss.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RbrCZVZkGhuo2CPNZtdklQ==
+SHA1-Digest: hBS6ZLIoTC47i77+nL5OD+oO7Ec=
+
+Name: chrome/content/icons/feeds/rss2.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tvWQ+C8Vd182j/siw2XJfA==
+SHA1-Digest: trX2mvsFkz3ZSFU+sEvh2EXSmJA=
+
+Name: chrome/content/icons/menu/B.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: P29HbsTeFpF5DpOGOpC6aQ==
+SHA1-Digest: iQFe7Ii2W217h/ADq7cckYmh1L4=
+
+Name: chrome/content/icons/menu/bg.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: y0CKdmyCJ9+UHqKV6oERSQ==
+SHA1-Digest: ckb826Na9pNoz+JfMr08lyIDkt4=
+
+Name: chrome/content/icons/menu/bgs.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NWNxpHmXe28hz9YyV1CvBg==
+SHA1-Digest: RwT8dovanGrT4EHYUGxtvWASRuM=
+
+Name: chrome/content/icons/menu/smallB.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HglEj0kf04MD3StRggeGdg==
+SHA1-Digest: YVzIhdJxfCfvBKa+XzI+E1pWD5E=
+
+Name: chrome/content/icons/newsPapers/addToBook.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nvldXB+YHhNUh8ip+V784Q==
+SHA1-Digest: LjI5/Vhq47Xmp2tR1FKGSxIPgJk=
+
+Name: chrome/content/icons/newsPapers/calendar.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: esROvfjrhz2VT8TUJ3b7vw==
+SHA1-Digest: 8YAyK1EFc4FW+DyIBLxNyYHoaAA=
+
+Name: chrome/content/icons/newsPapers/cleanCacheDate.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KCc7ZRC5Q4yZIx/ZmMGDzg==
+SHA1-Digest: jpdO+LZ1hTUh9yjhmdhHgzJRVuQ=
+
+Name: chrome/content/icons/newsPapers/cleanDeleteDate.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rSQYA2Yr6FCFDCUJftPJ8w==
+SHA1-Digest: odGBsFoyBJiM4xUOZ6XN9/d3nHM=
+
+Name: chrome/content/icons/newsPapers/delete.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Hw2HVgeyygx62BxN3+2LoQ==
+SHA1-Digest: g7kEsm8ExuVwJvEPDqbTF3kTmwI=
+
+Name: chrome/content/icons/newsPapers/deleteGray.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Mc/L8MOs82dh/EMeXHD2lw==
+SHA1-Digest: aEwR/IOMDvzqs5B589gYkpKaoKA=
+
+Name: chrome/content/icons/newsPapers/down.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: t3sigrv8+rDN7nwG9XRxIg==
+SHA1-Digest: Dl/MfUwoHieLVwpi1POlhFahthg=
+
+Name: chrome/content/icons/newsPapers/edit.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: skKAfn4q7xfkFnEodjYG0Q==
+SHA1-Digest: YPCwPEb9eXScjuNrFquW5m5gnpM=
+
+Name: chrome/content/icons/newsPapers/left.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QV9V8TdO6XbVWTJrdQhyrg==
+SHA1-Digest: zSAb1hGW3mnXz4V8J3QrbEPQTXM=
+
+Name: chrome/content/icons/newsPapers/new.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hLSyv15jYBCumvsQ/ZXtzQ==
+SHA1-Digest: OF9O1kyE5cz9T0AdYnvRsmOunPw=
+
+Name: chrome/content/icons/newsPapers/newsPaper.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3DcTLbmx/J3TvABPN5AlDA==
+SHA1-Digest: 4MgrXnPiuZOXLe0UkI0cGxxvl8c=
+
+Name: chrome/content/icons/newsPapers/newsPaper_load.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 23Y7Vf6U49dIy+rLnZ8n5Q==
+SHA1-Digest: hVI7ZeY8z/C6iUWNYd3NcaORlmo=
+
+Name: chrome/content/icons/newsPapers/newsPaperBig.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ywqVWXs+fU+J4/jmLk6Lhw==
+SHA1-Digest: bfpDwILUq9fV4k5UN4EVgNCT3es=
+
+Name: chrome/content/icons/newsPapers/notNew.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: UiJVlJvcm7Tcf1bNPennDw==
+SHA1-Digest: JFR6BatiWeN9vyazdl9cxEpj1pg=
+
+Name: chrome/content/icons/newsPapers/orderDateAsc.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eu3Q5pr344eNtvEeIkGKYg==
+SHA1-Digest: 09pDlSzUiYI5jmyod8ZBK8fLjwA=
+
+Name: chrome/content/icons/newsPapers/orderDateDesc.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +E1++309a3iTWu4+oQHbwQ==
+SHA1-Digest: yzPyAUG4yaERDFjxokJhPwyl6Fs=
+
+Name: chrome/content/icons/newsPapers/orderFeedAsc.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: txB7K4sqNa5UNFz1rge1tA==
+SHA1-Digest: R4X4hc7e8h+agjlYtnqJV8DrLeo=
+
+Name: chrome/content/icons/newsPapers/orderFeedDesc.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5AhcXjGqV5XbtB1Mu9kQ6Q==
+SHA1-Digest: axkhhj53zUC0Qt33Um9ElZTYNTE=
+
+Name: chrome/content/icons/newsPapers/page.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Z8dRDHoGtGODT13ywI/VDw==
+SHA1-Digest: sRzF9rKWdTbP691VwlbMSYZYQdQ=
+
+Name: chrome/content/icons/newsPapers/refresh.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nEpf8wUQ0KUmLhUxDPRGgA==
+SHA1-Digest: 4iIpQ3/KfC5YZkUaTPOK+HUoMws=
+
+Name: chrome/content/icons/newsPapers/refreshLong.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XIPIxqwg4wtoi6uG8z3foA==
+SHA1-Digest: 60N9gZta3e+RnkUpKJXDHZRTkqU=
+
+Name: chrome/content/icons/newsPapers/right.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 87SDGgf54mAQooHscniF5w==
+SHA1-Digest: 4+GtqLlXB37bkel0qfUYPkbPia4=
+
+Name: chrome/content/icons/newsPapers/search.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qS+N1V7PKrwoJpGCpk0JVg==
+SHA1-Digest: m1tf1ZQcfgTeXG5RR8txaYaPr44=
+
+Name: chrome/content/icons/newsPapers/selectAll.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1T558O4s8sHnd5K0U7di8g==
+SHA1-Digest: HRCgClDtaTv+h6Dm2Mp82xPXwUg=
+
+Name: chrome/content/icons/newsPapers/selectAllDay.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 64Y55axSuEJBZ8QC75rSFQ==
+SHA1-Digest: lo7PXP4poT7IDYDUHnkB9LXNFzA=
+
+Name: chrome/content/icons/newsPapers/selectNewOnes.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TLk4cQXLAUcMPvfgsvam5g==
+SHA1-Digest: 5dccA4UM1shKamkRbtaT4nOjRk8=
+
+Name: chrome/content/icons/newsPapers/selectNewOnesDay.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vlDIp7GCtlHvVgdRvMvHIQ==
+SHA1-Digest: HOe55nxzJUVqb9pX4tdkbErkXFI=
+
+Name: chrome/content/icons/newsPapers/share.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2LfNzTeRzqqH8uPv6BuY6g==
+SHA1-Digest: 5l1TgtBOyA7IM5adGBgVgQO7keM=
+
+Name: chrome/content/icons/newsPapers/stop.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: J6woUUkeVFp9Q8e+Psh/aA==
+SHA1-Digest: RFnzc1dCKgbuHeM7NH1EXzLMBQ0=
+
+Name: chrome/content/icons/newsPapers/up.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: C3MbJy0rmjnwa/KuZA9u3A==
+SHA1-Digest: MZGj6hGmY1GT/I1wFFVIqsHF3tw=
+
+Name: chrome/content/icons/newsPapers/zone.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mlg9vGslTfujIb0zU3cFpg==
+SHA1-Digest: SUaAlHZYA4Wb5caQGLbiUtoTvq0=
+
+Name: chrome/content/icons/zone/down.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: peArWFdaiRlV/SmUNKo5sg==
+SHA1-Digest: Fw0YJD6O/5SYW7tNngkJdFKsx3Q=
+
+Name: chrome/content/icons/zone/left.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nfUdSTBX+7NnUcQHKMvRjA==
+SHA1-Digest: XAbrHkcs3Y7Ob9lRoMbzYVQnGDA=
+
+Name: chrome/content/icons/zone/markerEnd.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5JBSjSvTTjzQlJs7GXorqA==
+SHA1-Digest: 7l436NY+aG8367HpLcvOCyDstGc=
+
+Name: chrome/content/icons/zone/markerStart.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WD6W4c39f3lbOuaIPFgWQg==
+SHA1-Digest: xtusSBXtDxtx2xAQfRuL23Lvq+Q=
+
+Name: chrome/content/icons/zone/right.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +4oAFFXmKgC/OZpfDQZI4g==
+SHA1-Digest: jhgs8gKdpVYevZSnVaGMT4o55Y0=
+
+Name: chrome/content/icons/zone/rightUp.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WK58AyKR5OiR1DcqUru5vg==
+SHA1-Digest: lSJhvfUPof5AzMQrbTn6POIhlSo=
+
+Name: chrome/content/icons/zone/up.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GRRz8V4Hy/4EizHd50AGzA==
+SHA1-Digest: zhARuKk2f1BVMcEppTPMyExClGw=
+
+Name: chrome/content/icons/zone/upDown.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fBCxD+V/PenuvBffvxUiGg==
+SHA1-Digest: Kp6Y+Vgrk9mPeC5FomzBZBvW3o4=
+
+Name: chrome/content/images/bookButtonIcon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4jhD2IEKzU4MzxfKH/VgKQ==
+SHA1-Digest: tO94W479h+emjLMxe9OnOwVH8DU=
+
+Name: chrome/content/images/wait.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: v7wS+J672osPuNwe3lfJ7A==
+SHA1-Digest: 224V/QcuvQ3KpGSwCZDRydxOlsU=
+
+Name: chrome/content/images/waitSmall.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CAx8CFzy1MWwaAvq71Ta0Q==
+SHA1-Digest: MuF10PrgX2GOgrc3uHQ4U8clvSg=
+
+Name: chrome/content/images/options/contextMenuItemsFlat.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6+Ey+vTEz9AmoMZcKIDMPw==
+SHA1-Digest: xKk36cviCLpyKt6VDQWXmVEUgPg=
+
+Name: chrome/content/images/options/contextMenuItemsGrouped.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zDs5sLWsDzfO2u1MU5j5Gw==
+SHA1-Digest: GqvhArE5HPmZAjBHeXtxt0eAo68=
+
+Name: chrome/content/images/options/marginConfig.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xEp+9pz0TexzJ1zOEPqRfw==
+SHA1-Digest: xOy7uyHzWrrubkTcxxx/vKse5jk=
+
+Name: chrome/skin/grabMyBooks.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: E+YZLIInC61v28xPy1g2gQ==
+SHA1-Digest: yNy129sCJWkI/X3fNNJ6E60bSFw=
+

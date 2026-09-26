@@ -1,0 +1,127 @@
+#grabMyBooksBookPanel, #grabMyBooksSmallInfoPanel
+{
+	background-image:url(chrome://grabMyBooks/content/icons/menu/bg.png);
+	border-style:solid;
+	text-align:center;
+	border-style:solid;
+	border-color:black;
+	border-width:3px;
+}
+
+#grabMyBooksBookPanel
+{
+	width:400px;
+	height:500px;
+}
+
+#grabMyBooksSmallInfoPanel
+{
+	width:300px;
+	height:200px;
+}
+
+#grabMyBooksSmallInfoContentContainer
+{
+	width:280px;
+	height:150px;
+	padding:5px;
+	background-color:white;
+	border-style:solid;
+	border-color:#cecece;
+	border-width:1px;
+	margin-top:3px;
+}
+#grabMyBooksSmallInfoPanelIframe
+{
+	width:260px;
+	height:120px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+#grabMyBooksSmallInfoButtonsContainer
+{
+	margin-top:3px;
+}
+
+#grabMyBooksBookPanelIframe
+{
+	width:380px;
+	height:430px;
+	background-color:white;
+}
+
+
+#grabMyBooksSmallInfoPanelBox
+{
+	margin-top:3px;
+}
+
+.grabMyBooksBookPanelButton
+{
+	margin-top:2px;
+	margin-bottom:6px;
+}
+.grabMyBooksBookPanelButton:hover
+{
+	margin-bottom:6px;
+	cursor:pointer;
+}
+
+
+#grabMyBooksAddedLabel
+{
+	margin-left:15px;
+	margin-right:1px;
+	margin-top:6px;
+	margin-bottom:6px;
+	font-weight:bold;
+	text-decoration: underline;
+}
+#grabMyBooksAddedLabelNum
+{
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:6px;
+	margin-bottom:6px;
+}
+
+
+#grabMyBooksBookPanelButtons
+{
+	width:400px;
+	vertical-align:middle;
+}
+#grabMyBooksBookPanelButtonAddedBox
+{
+	width:400px;
+	vertical-align:middle;
+}
+#grabMyBooksBookPanelArticleSelectBox
+{
+	display:none;
+	cursor:pointer;
+}
+
+#grabMyBooksBookPanelArticleSelectBox menupopup
+{
+	max-width:120px;
+	text-align:left;
+	cursor:pointer;
+}
+
+.grabMyBooksBookPanelMultiPrevNext
+{
+	cursor:pointer;
+}
+#grabMyBooksMenu, #grabMyBooksGroupedMenu
+{
+    list-style-image: url(chrome://grabMyBooks/content/icons/bookReader.png);
+}
+
+
+.menuTextWrapperXUL{display:inline-block;font-weight:normal;vertical-align:middle;}
+.menuTextXUL{font-family:'verdana','Arial','sans-serif';font-size:10px;white-space:nowrap;transform:scaleY(1.7);transform-origin:0 50%;display:inline-block;padding-top:2px;}
+.menuTextWrapperXUL{height:18px;margin:5px 0 5px 0;padding: 0 0 0 18px;}
+.menuTextWrapperXUL:hover{background:url('chrome://grabMyBooks/content/icons/menu/smallB.png') LEFT CENTER NO-REPEAT;cursor:pointer;}
+.menuTextWrapperXUL+.menuTextWrapperXUL{margin-left:10px;}

@@ -1,0 +1,9 @@
+content   grabMyBooks                 chrome/content/
+content	  grabMyBooks			  	  chrome/content/icons	contentaccessible=yes
+content	  grabMyBooks			  	  chrome/content/images	contentaccessible=yes
+
+content
+skin      grabMyBooks   classic/1.0   chrome/skin/
+locale    grabMyBooks   en-US         chrome/locale/en-US/
+
+overlay   chrome://browser/content/browser.xul   chrome://grabMyBooks/content/grabMyBooks.xul

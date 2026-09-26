@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<dialog title="About GrabMyBooks" orient="vertical" autostretch="always" onload="sizeToContent()" buttons="accept" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <groupbox align="center" orient="horizontal">
+    <vbox>
+      <text value="GrabMyBooks" style="font-weight: bold; font-size: x-large;"/>
+      <separator class="thin"/>
+      <text value="Created by" style="font-weight: bold;"/>
+      <label href="http://www.grabmybooks.com" class="plain text-link" value="www.grabmybooks.com"/>
+      <separator class="thin"/>
+      <text value="License" style="font-weight: bold;"/>
+      <label href="http://creativecommons.org/licenses/by-nc-nd/3.0/" class="plain text-link" value="CC BY-NC-ND 3.0"/>
+      <separator class="thin"/>
+    </vbox>
+  </groupbox>
+</dialog>
