@@ -1,5 +1,5 @@
 # GrabMyBooksPM
-GrabMyBooks for Pale Moon
-Grab content from web sites and rss feeds into an ePub/mobi file for your eBook reader.
-Only for the Pale Moon Reader.
+
+GrabMyBooks for Pale Moon is a Pale Moon Extension to grab content from web sites and rss feeds into an ePub/mobi file for your eBook reader.
+
 
