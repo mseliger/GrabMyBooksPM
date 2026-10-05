@@ -3135,6 +3135,10 @@ grabMyBooks.textFormat.formatTextForHtml_1 = function(articleText)
 grabMyBooks.textFormat.formatTextForHtml_2 = function(articleText)
 {
 	articleText = grabMyBooks.textFormat.protectPreformattedWhitespace(articleText);
+	//purge line breaks and blank rows around list tags
+	articleText = articleText.replace(/[ \t\r\n]+(\}li\$|\}ul\$|\}ol\$)/g, "$1");
+	articleText = articleText.replace(/(\$ul\{|\$ol\{|\$li\{|\}li\$)[ \t\r\n]+/g, "$1");
+	articleText = articleText.replace(/\$li\{\}li\$/g, "");
 	articleText = articleText.replace(/\$i\{/g,"<i>");
 	articleText = articleText.replace(/\$b\{/g,"<b>");
 	articleText = articleText.replace(/\$c\{/g,"<code>");
@@ -3189,6 +3193,10 @@ grabMyBooks.textFormat.formatTextForHtml_2 = function(articleText)
 
 	articleText = articleText.replace(/<\/table><\/p>/g,"</table>");
 	articleText = articleText.replace(/<p><table/g,"<table");
+	articleText = articleText.replace(/<\/table><\/p>/g,"</table>");
+	articleText = articleText.replace(/<p><table/g,"<table");
+	articleText = articleText.replace(/<\/(ul|ol)><\/p>/g,"</$1>");
+	articleText = articleText.replace(/<p><(ul|ol)>/g,"<$1>");
 	
 
 	var textHolder = new Object();
@@ -4115,6 +4123,7 @@ grabMyBooks.textFormat.formatTextSequential = function(textHolder)
 				continue;
 			}
 		}
+
 		//table element open
 		if(isNextFunction("$t*{"))
 		{
